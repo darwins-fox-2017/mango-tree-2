@@ -148,27 +148,27 @@ class TreeGrove {
   }
 }
 
-var allGrove = new TreeGrove();
-allGrove.entryTree("MangoTree", 3, 1.8, 7, true);
-allGrove.entryTree("MangoTree", 5, 2.4, 12, true)
-allGrove.entryTree("AppleTree", 4, 1.2, 5, true)
-allGrove.entryTree("PearTree", 7, 2, 15, true)
-allGrove.entryTree("AppleTree", 7, 2, 3, false)
+var TreeGrove = new TreeGrove();
+TreeGrove.entryTree("MangoTree", 3, 1.8, 7, true);
+TreeGrove.entryTree("MangoTree", 5, 2.4, 12, true)
+TreeGrove.entryTree("AppleTree", 4, 1.2, 5, true)
+TreeGrove.entryTree("PearTree", 7, 2, 15, true)
+TreeGrove.entryTree("AppleTree", 7, 2, 3, false)
 
-allGrove.pohon[0].produce();
-allGrove.pohon[1].produce();
-allGrove.pohon[2].produce();
-allGrove.pohon[3].produce();
-allGrove.pohon[4].produce();
+TreeGrove.pohon[0].produce();
+TreeGrove.pohon[1].produce();
+TreeGrove.pohon[2].produce();
+TreeGrove.pohon[3].produce();
+TreeGrove.pohon[4].produce();
 
-allGrove.showAge();
+TreeGrove.showAge();
 console.log(``);
-allGrove.showTrees();
+TreeGrove.showTrees();
 console.log(``);
-allGrove.matureTrees();
+TreeGrove.matureTrees();
 console.log(``);
-allGrove.nextYear();
+TreeGrove.nextYear();
 console.log(``);
-allGrove.deadTrees();
+TreeGrove.deadTrees();
 console.log('coba coba');
 console.log('coba coba');
