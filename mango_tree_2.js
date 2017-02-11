@@ -150,10 +150,10 @@ class TreeGrove {
   }
 
   nextYear(){
-    for (var i = 0; i < this.tree.length; i++) {
-      this.tree[i]['_age'] += 1;
-      this.tree[i]['_height'] += Math.random()*2
-    }
+    // for (var i = 0; i < this.tree.length; i++) {
+    //   this.tree[i]['_age'] += 1;
+    //   this.tree[i]['_height'] += Math.random()*2
+    // }
     FruitTree.grow()
   }
 
@@ -183,6 +183,8 @@ grove.showTrees()
 // show trees
 grove.mature_trees()
 // next year
+grove.nextYear()
+grove.nextYear()
 grove.nextYear()
 grove.nextYear()
 
