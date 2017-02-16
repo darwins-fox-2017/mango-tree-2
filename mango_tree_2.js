@@ -202,7 +202,7 @@ grove.treeGrow()
 grove.treeGrow()
 grove.treeGrow()
 grove.treeGrow()
-
+grove.treeGrow()
 
 grove.age()
 grove.mature_trees()
